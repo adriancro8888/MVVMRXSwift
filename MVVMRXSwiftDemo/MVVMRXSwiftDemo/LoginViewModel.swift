@@ -10,12 +10,12 @@ import Foundation
 import RxSwift
 
 struct  LoginViewModel {
-    var username = Variable<String>("")
-    var password = Variable<String>("")
+    var username = Variable<String?>("")
+    var password = Variable<String?>("")
     
     var isValid : Observable<Bool>{
         return Observable.combineLatest(self.username.asObservable(), self.password.asObservable(), resultSelector: { (user, pass)  in
-            return user.characters.count > 0 && pass.characters.count > 0
+            return user!.characters.count > 0 && pass!.characters.count > 0
         })
     }
     

@@ -10,6 +10,8 @@
 		7B4EA16A76E9A72C05DCF678 /* Pods_MVVMRXSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71DC6759C1D15B477D20EE2 /* Pods_MVVMRXSwiftDemoUITests.framework */; };
 		BEB8D8F9F64931B28530212A /* Pods_MVVMRXSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00034214BDBE7FF4556EAF2 /* Pods_MVVMRXSwiftDemo.framework */; };
 		C4785B9B191776336D5670B9 /* Pods_MVVMRXSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EA3AE4151BD48B52069D97 /* Pods_MVVMRXSwiftDemoTests.framework */; };
+		D05F72621E470BCC0048774B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3CA171E46159D007B8F2C /* LoginViewController.swift */; };
+		D05F72631E470BE70048774B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3CA191E4616B3007B8F2C /* LoginViewModel.swift */; };
 		D0B3C9EA1E46128F007B8F2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3C9E91E46128F007B8F2C /* AppDelegate.swift */; };
 		D0B3C9EF1E46128F007B8F2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B3C9ED1E46128F007B8F2C /* Main.storyboard */; };
 		D0B3C9F11E46128F007B8F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B3C9F01E46128F007B8F2C /* Assets.xcassets */; };
@@ -470,7 +472,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05F72621E470BCC0048774B /* LoginViewController.swift in Sources */,
 				D0B3C9FF1E46128F007B8F2C /* MVVMRXSwiftDemoTests.swift in Sources */,
+				D05F72631E470BE70048774B /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
